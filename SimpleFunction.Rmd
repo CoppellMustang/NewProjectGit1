@@ -1,0 +1,17 @@
+---
+title: "SimpleFunction"
+author: "Manjula Kottegoda"
+date: "May 31, 2016"
+output: 
+  html_document:
+    keep_md: true
+---
+
+
+# Comment XYZ
+
+```{r}
+se <- function(x){
+  sd(x)/length(x) 
+}
+```
